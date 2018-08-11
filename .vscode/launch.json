@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/helloworld.exe",
+            "program": "${workspaceFolder}/GameofLife.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

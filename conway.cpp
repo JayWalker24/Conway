@@ -73,6 +73,7 @@ class Board{
 
         }
 
+        //counts the number of neighbors ina 1 tile radius around a specific coordiante
         int countNeighbors(int xLoc, int yLoc){
             int NCount = 0;
             for (int x = -1; x<=1;x++){
@@ -132,6 +133,7 @@ class Board{
 
 
 int main() {
+    //generates random numbers based on the curent time and uses it as a seed
     srand((int)time(0));
     Board Conway(40,40);
     Conway.initialize();
